@@ -1,56 +1,73 @@
 # Hey, I'm Muhammed Farag 👋  
-### AI Engineer | NLP & Generative AI | Research-Oriented Developer  
+### AI Engineer | NLP & Generative AI | Advanced Python Developer | Quantum ML Track  
 
 ---
 
 ## 👨‍💻 About Me  
-- 🤖 **AI Engineer** specializing in **NLP, Generative AI, and Intelligent Systems**
+- 🤖 **AI Engineer** specializing in **NLP, Generative AI, and intelligent systems**
+- 🐍 **Advanced Python Developer** with experience writing **production-grade systems**
+- 💊 Built a **real-world pharmacy management system** (business logic, data handling, reliability)
 - 🎓 **Computer Science & Engineering** student
-- 🧠 Strong background in **Machine Learning, Deep Learning, and Data Analytics**
-- 🔬 Research-oriented mindset — focused on **model selection, evaluation, and system design**
-- 🌍 Passionate about building **real-world AI solutions**, not just demos
+- ☕ Strong foundation in **Java** and software engineering principles
+- ⚛️ Entering **Quantum Computing**, aiming for **Quantum ML & Quantum Neural Networks (QNNs)**
 
 ---
 
-## 🧠 Core Expertise  
-- **Natural Language Processing (NLP)**  
-  - Transformers, LLMs, RAG pipelines  
-  - Conversational AI & therapy chatbots  
-  - Sentiment & emotion analysis (text, voice, facial cues)
+## 🧠 Core Skills  
 
-- **Machine Learning & Deep Learning**  
-  - CNNs, RNNs, LSTMs, Attention  
-  - Recommendation Systems  
-  - Reinforcement Learning (ongoing track)
+### 🔹 Python & Software Engineering  
+- Advanced Python (clean architecture, modular design, error handling)  
+- Production-level business logic  
+- Data processing & system reliability  
+- Debugging, refactoring & maintainability  
 
-- **AI Systems & Engineering**  
-  - Hugging Face ecosystem (models & pipelines)  
-  - Model integration in **Python & Web-based applications**  
-  - Research-driven model comparison & optimization
+### 🔹 Artificial Intelligence & ML  
+- Natural Language Processing (NLP)  
+- Transformers & Large Language Models (LLMs)  
+- Sentiment & emotion analysis  
+- Recommendation Systems  
+- Reinforcement Learning (learning track)
+
+### 🔹 Quantum Computing (Research Track)  
+- Quantum computing fundamentals  
+- Quantum circuits & gates  
+- Hybrid classical–quantum workflows  
+- **Quantum Neural Networks (QNNs) — future specialization**
+
+### 🔹 Programming & Systems  
+- **Python (Advanced)**  
+- **Java** (OOP, data structures, backend logic)  
+- Vanilla Web (HTML, CSS, JavaScript)  
+- System integration & API-level thinking
+
+### 🔹 Hardware & AIoT  
+- Raspberry Pi  
+- Sensor-driven systems  
+- Edge-based AI experimentation
 
 ---
 
 ## 🛠️ Tech Stack  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,mongodb,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,java,pytorch,tensorflow,opencv,html,css,js,git,github,vscode" />
 </p>
 
 ---
 
-## 🏆 Highlights & Achievements  
+## 🏆 Highlights  
 - 🥇 **Rank 1 – RoboRave Competition (China)**  
 - 🤖 **AI Member @ IEEE**  
-- 🇪🇬 **DEPI – Digital Egypt Pioneers Initiative**  
-- 🧪 Internship experience in **Data Analytics & Recommendation Systems (STC)**  
-- 🚀 Working on **AIoT & Robotics-based graduation projects**
+- 🇪🇬 **Digital Egypt Pioneers Initiative (DEPI)**  
+- 💊 Developed a **production-level Pharmacy Management System (Python)**  
+- 🤖 Graduation project involving **AIoT & Robotics**
 
 ---
 
 ## 📌 Current Focus  
-- 🔹 Advanced **NLP & Generative AI**
-- 🔹 Therapy-oriented conversational AI systems  
-- 🔹 Multimodal emotion-aware AI (text + voice + facial expressions)  
-- 🔹 Research-backed AI architectures (not API-only solutions)
+- Advanced **NLP & Generative AI systems**
+- Emotion-aware conversational AI  
+- Research-grade AI architectures  
+- **Quantum Computing → Quantum ML → QNNs**
 
 ---
 
