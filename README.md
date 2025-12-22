@@ -40,7 +40,7 @@
 ## 🏆 Highlights & Achievements  
 - 🥇 **Rank 1 – RoboRave Competition (China)**  
 - 🤖 **AI Member @ IEEE**  
-- 🇪🇬 Accepted into **DEPI – Digital Egypt Pioneers Initiative**  
+- 🇪🇬 **DEPI – Digital Egypt Pioneers Initiative**  
 - 🧪 Internship experience in **Data Analytics & Recommendation Systems (STC)**  
 - 🚀 Working on **AIoT & Robotics-based graduation projects**
 
