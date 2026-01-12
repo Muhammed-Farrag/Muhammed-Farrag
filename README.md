@@ -77,15 +77,3 @@
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/Muhammed-Farrag)
 
 ---
-
-## 📊 GitHub Activity  
-
-> Note: GitHub stats are cached and update periodically (not real-time).
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Muhammed-Farrag&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Muhammed-Farrag&theme=tokyonight&hide_border=true&cache_seconds=1800)
-
----
-
-> _Building intelligent systems at the intersection of AI, automation, and applied research._
