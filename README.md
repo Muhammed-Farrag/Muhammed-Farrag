@@ -1,43 +1,43 @@
 # Hey, I'm Muhammed Farag 👋  
-### AI Engineer | NLP & Generative AI | Advanced Python Developer | Quantum ML Track  
-
+### Applied AI Engineer
 ---
 
 ## 👨‍💻 About Me  
-- 🤖 **AI Engineer** specializing in **NLP, Generative AI, and intelligent systems**
-- 🐍 **Advanced Python Developer** with experience writing **production-grade systems**
-- 💊 Built a **real-world pharmacy management system** (business logic, data handling, reliability)
+- 🤖 **Applied AI Engineer** specializing in **NLP, Generative AI, and intelligent systems**
+- 🐍 **Advanced Python Developer** building **production-grade, reliable systems**
+- 💊 Built a **real-world pharmacy management system** (business logic, data handling, robustness)
 - 🎓 **Computer Science & Engineering** student
 - ☕ Strong foundation in **Java** and software engineering principles
-- ⚛️ Entering **Quantum Computing**, aiming for **Quantum ML & Quantum Neural Networks (QNNs)**
+- ⚛️ Exploring **Quantum Computing**, targeting **Quantum ML & Quantum Neural Networks (QNNs)**
 
 ---
 
-## 🧠 Core Skills  
+## 🧠 Core Capabilities  
 
-### 🔹 Python & Software Engineering  
-- Advanced Python (clean architecture, modular design, error handling)  
-- Production-level business logic  
-- Data processing & system reliability  
-- Debugging, refactoring & maintainability  
-
-### 🔹 Artificial Intelligence & ML  
+### 🔹 AI & Machine Learning  
 - Natural Language Processing (NLP)  
 - Transformers & Large Language Models (LLMs)  
+- Generative AI systems  
 - Sentiment & emotion analysis  
 - Recommendation Systems  
-- Reinforcement Learning (learning track)
+- Reinforcement Learning (learning & applied track)
+
+### 🔹 Python & Software Engineering  
+- Advanced Python (clean architecture, modular design)  
+- Production-level business logic  
+- Data processing & system reliability  
+- Debugging, refactoring & maintainability
 
 ### 🔹 Quantum Computing (Research Track)  
 - Quantum computing fundamentals  
 - Quantum circuits & gates  
 - Hybrid classical–quantum workflows  
-- **Quantum Neural Networks (QNNs) — future specialization**
+- **Quantum Neural Networks (QNNs)** — future specialization
 
 ### 🔹 Programming & Systems  
 - **Python (Advanced)**  
 - **Java** (OOP, data structures, backend logic)  
-- Vanilla Web (HTML, CSS, JavaScript)  
+- Web fundamentals (HTML, CSS, JavaScript)  
 - System integration & API-level thinking
 
 ### 🔹 Hardware & AIoT  
@@ -54,7 +54,7 @@
 
 ---
 
-## 🏆 Highlights  
+## 🏆 Highlights & Validation  
 - 🥇 **Rank 1 – RoboRave Competition (China)**  
 - 🤖 **AI Member @ IEEE**  
 - 🇪🇬 **Digital Egypt Pioneers Initiative (DEPI)**  
@@ -63,7 +63,7 @@
 
 ---
 
-## 📌 Current Focus  
+## 🎯 Current Focus  
 - Advanced **NLP & Generative AI systems**
 - Emotion-aware conversational AI  
 - Research-grade AI architectures  
@@ -78,7 +78,14 @@
 
 ---
 
-## 📊 GitHub Stats  
-![Muhammed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Muhammed-Farrag&show_icons=true&theme=tokyonight)
+## 📊 GitHub Activity  
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Muhammed-Farrag&theme=tokyonight)
+> Note: GitHub stats are cached and update periodically (not real-time).
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Muhammed-Farrag&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Muhammed-Farrag&theme=tokyonight&hide_border=true&cache_seconds=1800)
+
+---
+
+> _Building intelligent systems at the intersection of AI, automation, and applied research._
