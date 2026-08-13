@@ -123,16 +123,19 @@ I build applied AI systems that turn research ideas into reliable products, with
 ## 📊 SPIDER-SENSE — LIVE METRICS
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Muhammed-Farrag&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff1744&icon_color=ff1744&text_color=c9d1d9" alt="Muhammed Farrag's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhammed-Farrag&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff1744&text_color=c9d1d9" alt="Muhammed Farrag's most used languages" />
+  <img src="assets/metrics/overview.svg" width="100%" alt="Muhammed Farrag's GitHub profile telemetry" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Muhammed-Farrag&theme=radical&hide_border=true&background=0D1117&ring=FF1744&fire=FF1744&currStreakLabel=FF1744" alt="Muhammed Farrag's GitHub contribution streak" />
+  <img src="assets/metrics/languages.svg" width="100%" alt="Muhammed Farrag's most used programming languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Muhammed-Farrag&theme=radical&column=7&no-frame=true&no-bg=true" alt="Muhammed Farrag's GitHub trophies" />
+  <img src="assets/metrics/streak.svg" width="100%" alt="Muhammed Farrag's contribution streak and recent activity" />
+</p>
+
+<p align="center">
+  <img src="assets/metrics/achievements.svg" width="100%" alt="Muhammed Farrag's GitHub achievement array" />
 </p>
 
 ---

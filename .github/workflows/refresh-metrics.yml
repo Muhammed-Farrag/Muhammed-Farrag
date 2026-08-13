@@ -1,0 +1,47 @@
+name: Refresh README metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    paths:
+      - "scripts/generate-metrics.mjs"
+      - ".github/workflows/refresh-metrics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-metrics
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate local metric cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: Muhammed-Farrag
+        run: node scripts/generate-metrics.mjs
+
+      - name: Commit refreshed cards
+        run: |
+          if git diff --quiet -- assets/metrics; then
+            echo "Metrics are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/metrics
+          git commit -m "chore: refresh profile metrics"
+          git push
