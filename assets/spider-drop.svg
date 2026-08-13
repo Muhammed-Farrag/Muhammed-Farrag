@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="190" viewBox="0 0 135 190" role="img" aria-labelledby="title desc">
+  <title id="title">Animated pixel spider</title>
+  <desc id="desc">An original dark maroon pixel-art spider lowers on a thread, hangs, and retracts while its eight legs gently move.</desc>
+
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,-55; 0,105; 0,105; 0,-55; 0,-55"
+      keyTimes="0;0.35;0.55;0.9;1"
+      calcMode="spline"
+      keySplines="0.45 0 0.55 1; 0 0 1 1; 0.45 0 0.55 1; 0 0 1 1"
+      dur="7s"
+      repeatCount="indefinite" />
+
+    <line x1="67.5" y1="-400" x2="67.5" y2="18" stroke="#8a94a6" stroke-width="1.2" opacity="0.75" />
+
+    <!-- Four independently animated legs on the left -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 57.5 35.5; -6 57.5 35.5; 0 57.5 35.5" dur="1.8s" begin="-0.2s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="47.5" y="28" width="15" height="5"/><rect x="37.5" y="23" width="15" height="5"/><rect x="27.5" y="18" width="15" height="5"/><rect x="22.5" y="13" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 57.5 40.5; -6 57.5 40.5; 0 57.5 40.5" dur="2.2s" begin="-0.7s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="42.5" y="35.5" width="20" height="5"/><rect x="32.5" y="40.5" width="15" height="5"/><rect x="22.5" y="45.5" width="15" height="5"/><rect x="17.5" y="50.5" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 57.5 48; -6 57.5 48; 0 57.5 48" dur="2.4s" begin="-1.1s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="42.5" y="48" width="20" height="5"/><rect x="32.5" y="53" width="15" height="5"/><rect x="27.5" y="58" width="10" height="5"/><rect x="22.5" y="63" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 57.5 53; -6 57.5 53; 0 57.5 53" dur="2s" begin="-1.5s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="47.5" y="53" width="15" height="5"/><rect x="42.5" y="58" width="10" height="5"/><rect x="37.5" y="63" width="10" height="5"/><rect x="32.5" y="68" width="10" height="5"/>
+      </g>
+    </g>
+
+    <!-- Four independently animated legs on the right -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 77.5 35.5; 6 77.5 35.5; 0 77.5 35.5" dur="1.9s" begin="-0.5s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="72.5" y="28" width="15" height="5"/><rect x="82.5" y="23" width="15" height="5"/><rect x="92.5" y="18" width="15" height="5"/><rect x="102.5" y="13" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 77.5 40.5; 6 77.5 40.5; 0 77.5 40.5" dur="2.3s" begin="-0.9s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="72.5" y="35.5" width="20" height="5"/><rect x="87.5" y="40.5" width="15" height="5"/><rect x="97.5" y="45.5" width="15" height="5"/><rect x="107.5" y="50.5" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 77.5 48; 6 77.5 48; 0 77.5 48" dur="2.1s" begin="-1.3s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="72.5" y="48" width="20" height="5"/><rect x="87.5" y="53" width="15" height="5"/><rect x="97.5" y="58" width="10" height="5"/><rect x="102.5" y="63" width="10" height="5"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 77.5 53; 6 77.5 53; 0 77.5 53" dur="2.4s" begin="-1.8s" repeatCount="indefinite" />
+      <g fill="#3d0e1a">
+        <rect x="72.5" y="53" width="15" height="5"/><rect x="82.5" y="58" width="10" height="5"/><rect x="87.5" y="63" width="10" height="5"/><rect x="92.5" y="68" width="10" height="5"/>
+      </g>
+    </g>
+
+    <!-- Nine-row, five-pixel-unit original arachnid body -->
+    <g fill="#5c1526" shape-rendering="crispEdges">
+      <rect x="62.5" y="18" width="10" height="5"/>
+      <rect x="57.5" y="23" width="20" height="5"/>
+      <rect x="57.5" y="28" width="20" height="5"/>
+      <rect x="52.5" y="33" width="30" height="5"/>
+      <rect x="52.5" y="38" width="30" height="5"/>
+      <rect x="52.5" y="43" width="30" height="5"/>
+      <rect x="57.5" y="48" width="20" height="5"/>
+      <rect x="57.5" y="53" width="20" height="5"/>
+      <rect x="62.5" y="58" width="10" height="5"/>
+    </g>
+    <rect x="57.5" y="33" width="5" height="5" fill="#ff2d55"/>
+    <rect x="72.5" y="33" width="5" height="5" fill="#ff2d55"/>
+  </g>
+</svg>

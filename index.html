@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062f63" />
+    <meta name="description" content="Muhammed Farrag's interactive applied-AI portfolio tracker." />
+    <title>Farrag Tracker — Applied AI Portfolio</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="tracker-shell" aria-label="Farrag portfolio tracker">
+      <header class="top-rail">
+        <button class="pixel-icon profile-trigger" type="button" data-panel="profile" aria-label="Open profile file">
+          <span class="avatar-pixel" aria-hidden="true">MF</span>
+        </button>
+
+        <a class="tracker-logo" href="https://github.com/Muhammed-Farrag" target="_blank" rel="noreferrer" aria-label="Open Muhammed Farrag's GitHub profile">
+          <span>FARRAG</span><i aria-hidden="true"></i><span>TRACKER</span>
+        </a>
+
+        <button class="pixel-icon help-trigger" type="button" data-panel="help" aria-label="Open tracker help">
+          <span aria-hidden="true">?</span>
+        </button>
+      </header>
+
+      <nav class="side-nav" aria-label="Tracker navigation">
+        <button type="button" data-panel="activity"><span aria-hidden="true">▤</span><b>Activity log</b></button>
+        <button type="button" data-panel="skills"><span aria-hidden="true">⌁</span><b>Skill scan</b></button>
+        <button type="button" data-panel="events"><span aria-hidden="true">★</span><b>Event log</b></button>
+        <button type="button" data-panel="comms"><span aria-hidden="true">⌁</span><b>Comms</b></button>
+      </nav>
+
+      <section class="screen" aria-label="Interactive global experience map">
+        <canvas id="tracker-canvas" aria-label="Animated three-dimensional tracker globe"></canvas>
+        <div class="crt" aria-hidden="true"></div>
+        <div class="map-grid" aria-hidden="true"></div>
+
+        <div class="hud-corner top-left" aria-hidden="true"></div>
+        <div class="hud-corner top-right" aria-hidden="true"></div>
+        <div class="hud-corner bottom-left" aria-hidden="true"></div>
+        <div class="hud-corner bottom-right" aria-hidden="true"></div>
+
+        <div class="coordinates" aria-hidden="true">
+          <span>NODE: MF-019</span>
+          <span id="coordinate-readout">30.0444° N · 31.2357° E</span>
+        </div>
+
+        <div class="intro" id="intro">
+          <div class="drop-thread" aria-hidden="true"></div>
+          <img class="drop-spider" src="assets/spider-drop.svg" alt="" aria-hidden="true" />
+          <p class="kicker">Applied AI signal detected</p>
+          <h1>Track the work.<br />Explore the mission.</h1>
+          <p>Interact with the global map to view confirmed projects, roles, research, and achievements.</p>
+          <div class="signal-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <button class="pixel-button primary" type="button" id="start-tracking">Start tracking</button>
+        </div>
+
+        <div class="loading-map" id="loading-map" aria-live="polite" hidden>
+          <span>Initializing intelligence map</span>
+          <div><i></i></div>
+        </div>
+
+        <div class="map-hud" id="map-hud" hidden>
+          <div class="map-heading">
+            <span>Global intelligence network</span>
+            <strong>07 confirmed signals</strong>
+          </div>
+          <button class="zoom-control" type="button" id="center-map" aria-label="Center globe">◎</button>
+        </div>
+
+        <div class="marker-layer" id="marker-layer" aria-label="Portfolio locations"></div>
+
+        <article class="signal-card" id="signal-card" hidden aria-live="polite">
+          <button type="button" class="card-close" id="card-close" aria-label="Close location details">×</button>
+          <span id="card-type">Confirmed signal</span>
+          <h2 id="card-title">Cairo, Egypt</h2>
+          <strong id="card-role">Applied AI Engineer</strong>
+          <p id="card-copy">Select a signal to inspect the details.</p>
+          <small id="card-date">LIVE</small>
+        </article>
+
+        <aside class="info-panel" id="info-panel" hidden aria-live="polite">
+          <header>
+            <div><span id="panel-index">FILE 01</span><h2 id="panel-title">Activity log</h2></div>
+            <button type="button" id="panel-close" aria-label="Close information panel">×</button>
+          </header>
+          <div id="panel-body"></div>
+        </aside>
+      </section>
+
+      <footer class="control-rail">
+        <a class="message-tab" href="mailto:mohamed.frage19@gmail.com">
+          <span class="mini-avatar" aria-hidden="true">MF</span>
+          <b>Message center</b>
+        </a>
+
+        <div class="status-strip">
+          <span class="status-light"></span>
+          <span id="system-status">System ready</span>
+          <div class="progress-track"><i id="progress-fill"></i></div>
+        </div>
+
+        <div class="sound-control">
+          <label for="volume">Signal volume</label>
+          <input id="volume" type="range" min="0" max="100" value="55" />
+          <button type="button" id="sound-toggle" aria-label="Mute interface sound" aria-pressed="false">◖))</button>
+        </div>
+      </footer>
+    </main>
+
+    <footer class="page-footer">
+      <a href="README.md">PROFILE README</a>
+      <div><span>Powered by</span><strong>THREE.JS</strong></div>
+      <a href="https://github.com/Muhammed-Farrag" target="_blank" rel="noreferrer">GITHUB / MF</a>
+    </footer>
+
+    <noscript>This interactive tracker requires JavaScript. The complete profile remains available in README.md.</noscript>
+
+    <script type="importmap">
+      {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}
+    </script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
