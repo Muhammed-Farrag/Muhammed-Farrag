@@ -48,7 +48,7 @@ EDUCATION ....... B.Sc. AI Science — Alamein International University, 2022–
 I build applied AI systems that turn research ideas into reliable products, with a focus on natural language processing, generative AI, LLM integrations, anomaly detection, and production-ready automation.
 
 <p align="center">
-  <img src="assets/spider-drop.svg" width="120" alt="Animated original pixel spider descending on a thread" />
+  <img src="assets/web-hero-drop.svg" width="110" alt="Animated original masked pixel web hero hanging from a thread" />
 </p>
 
 ---
