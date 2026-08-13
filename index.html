@@ -6,7 +6,6 @@
     <meta name="theme-color" content="#062f63" />
     <meta name="description" content="Muhammed Farrag's interactive applied-AI portfolio tracker." />
     <title>Farrag Tracker — Applied AI Portfolio</title>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -33,7 +32,34 @@
       </nav>
 
       <section class="screen" aria-label="Interactive global experience map">
-        <canvas id="tracker-canvas" aria-label="Animated three-dimensional tracker globe"></canvas>
+        <div class="atlas-viewport" id="atlas-viewport" aria-label="Interactive flat world tracker map">
+          <div class="atlas-stage" id="atlas-stage">
+            <svg class="world-atlas" viewBox="0 0 1200 600" role="img" aria-labelledby="map-title map-desc">
+              <title id="map-title">Farrag Tracker world atlas</title>
+              <desc id="map-desc">A detailed interactive atlas of 175 countries displaying Muhammed Farrag's verified portfolio locations.</desc>
+              <defs>
+                <pattern id="atlas-dots" width="10" height="10" patternUnits="userSpaceOnUse">
+                  <circle cx="2" cy="2" r="1.2" fill="#73c8d8" opacity=".32"/>
+                </pattern>
+                <filter id="atlas-glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+              </defs>
+              <g class="latitude-lines" fill="none" stroke="#65bed0" stroke-width="1" opacity=".1">
+                <path d="M0 100h1200M0 200h1200M0 300h1200M0 400h1200M0 500h1200"/>
+                <path d="M100 0v600M300 0v600M500 0v600M700 0v600M900 0v600M1100 0v600"/>
+              </g>
+              <g class="countries" id="country-layer" fill="url(#atlas-dots)" stroke="#4ca5b8" stroke-width="1.25" stroke-linejoin="round"></g>
+              <g class="route-network" fill="none" stroke="#ee4d59" stroke-width="2" stroke-dasharray="8 8" opacity=".38" filter="url(#atlas-glow)">
+                <path d="M694 246Q870 96 1065 233"/>
+                <path d="M694 246Q450 110 224 205"/>
+                <path d="M694 246Q760 268 787 316"/>
+                <path d="M694 246Q682 226 666 217"/>
+              </g>
+            </svg>
+            <div class="marker-layer" id="marker-layer" aria-label="Portfolio locations"></div>
+          </div>
+        </div>
         <div class="crt" aria-hidden="true"></div>
         <div class="map-grid" aria-hidden="true"></div>
 
@@ -48,8 +74,7 @@
         </div>
 
         <div class="intro" id="intro">
-          <div class="drop-thread" aria-hidden="true"></div>
-          <img class="drop-spider" src="assets/spider-drop.svg" alt="" aria-hidden="true" />
+          <img class="drop-hero" src="assets/web-hero-drop.svg" alt="" aria-hidden="true" />
           <p class="kicker">Applied AI signal detected</p>
           <h1>Track the work.<br />Explore the mission.</h1>
           <p>Interact with the global map to view confirmed projects, roles, research, and achievements.</p>
@@ -67,10 +92,22 @@
             <span>Global intelligence network</span>
             <strong>07 confirmed signals</strong>
           </div>
-          <button class="zoom-control" type="button" id="center-map" aria-label="Center globe">◎</button>
+          <div class="continent-filters" aria-label="Filter countries by Fastly-style continent code">
+            <button type="button" data-continent="ALL" class="is-active">ALL</button>
+            <button type="button" data-continent="AF">AF</button>
+            <button type="button" data-continent="AS">AS</button>
+            <button type="button" data-continent="EU">EU</button>
+            <button type="button" data-continent="NA">NA</button>
+            <button type="button" data-continent="OC">OC</button>
+            <button type="button" data-continent="SA">SA</button>
+            <button type="button" data-continent="AN">AN</button>
+          </div>
+          <div class="map-controls" aria-label="Map controls">
+            <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+            <button type="button" id="center-map" aria-label="Center map">◎</button>
+            <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+          </div>
         </div>
-
-        <div class="marker-layer" id="marker-layer" aria-label="Portfolio locations"></div>
 
         <article class="signal-card" id="signal-card" hidden aria-live="polite">
           <button type="button" class="card-close" id="card-close" aria-label="Close location details">×</button>
@@ -78,6 +115,7 @@
           <h2 id="card-title">Cairo, Egypt</h2>
           <strong id="card-role">Applied AI Engineer</strong>
           <p id="card-copy">Select a signal to inspect the details.</p>
+          <div class="card-links" id="card-links"></div>
           <small id="card-date">LIVE</small>
         </article>
 
@@ -112,15 +150,12 @@
 
     <footer class="page-footer">
       <a href="README.md">PROFILE README</a>
-      <div><span>Powered by</span><strong>THREE.JS</strong></div>
+      <div><a href="https://www.fastly.com/documentation/reference/vcl/variables/geolocation/client-geo-continent-code/" target="_blank" rel="noreferrer">Map data: Natural Earth · Geo codes: Fastly model</a><strong>FARRAG ATLAS</strong></div>
       <a href="https://github.com/Muhammed-Farrag" target="_blank" rel="noreferrer">GITHUB / MF</a>
     </footer>
 
     <noscript>This interactive tracker requires JavaScript. The complete profile remains available in README.md.</noscript>
 
-    <script type="importmap">
-      {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}
-    </script>
-    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

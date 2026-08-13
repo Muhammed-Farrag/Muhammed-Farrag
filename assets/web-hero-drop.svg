@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="150" viewBox="0 0 110 150" role="img" aria-labelledby="title desc">
+  <title id="title">Original pixel web hero</title>
+  <desc id="desc">An original red and cyan masked pixel hero hangs upside down from a silver thread.</desc>
+  <g shape-rendering="crispEdges">
+    <line x1="55" y1="-210" x2="55" y2="22" stroke="#dce7e4" stroke-width="2" opacity=".9"/>
+
+    <g transform="translate(0 2)">
+      <animateTransform attributeName="transform" type="rotate" values="-2 55 22;2 55 22;-2 55 22" dur="3.6s" repeatCount="indefinite"/>
+      <g transform="rotate(180 55 76)">
+
+      <!-- boots and bent legs -->
+      <g fill="#18323d" stroke="#101f27" stroke-width="3">
+        <path d="M38 99h14v19l-9 14H31v-9l7-9Z"/>
+        <path d="M58 99h14v15l7 9v9H67l-9-14Z"/>
+      </g>
+      <g fill="#39a9c7">
+        <path d="M34 123h11l7-10v10l-8 12H31v-9Z"/>
+        <path d="M65 123h11l3 3v9H66l-8-12v-10Z"/>
+      </g>
+
+      <!-- torso: original split-panel suit, no spider emblem -->
+      <path d="M35 65 29 79l8 25h36l8-25-6-14-12-7H47Z" fill="#e94b55" stroke="#101f27" stroke-width="4"/>
+      <path d="M47 59h16l7 45H40Z" fill="#278da9"/>
+      <path d="m55 72 7 8-7 8-7-8Z" fill="#f0c94b" stroke="#101f27" stroke-width="3"/>
+      <path d="M39 91h32M44 101h22" fill="none" stroke="#101f27" stroke-width="3"/>
+
+      <!-- arms folded toward the web -->
+      <path d="M34 69 19 78l7 11 15-8M76 69l15 9-7 11-15-8" fill="#e94b55" stroke="#101f27" stroke-width="4"/>
+      <path d="m20 77-8-5-5 7 12 9 8-2M90 77l8-5 5 7-12 9-8-2" fill="#39a9c7" stroke="#101f27" stroke-width="3"/>
+
+      <!-- original angular hood and mask -->
+      <path d="m55 21-18 8-6 18 8 19h32l8-19-6-18Z" fill="#e94b55" stroke="#101f27" stroke-width="4"/>
+      <path d="m55 23-6 8h12Z" fill="#278da9"/>
+      <path d="m39 39 13 4-9 13-9-5Zm32 0-13 4 9 13 9-5Z" fill="#edf2df" stroke="#101f27" stroke-width="3"/>
+      <path d="M55 32v29M39 32l16 9 16-9M39 61l16-9 16 9" fill="none" stroke="#7d1b2b" stroke-width="2"/>
+      <rect x="48" y="62" width="14" height="5" fill="#101f27"/>
+      </g>
+    </g>
+  </g>
+</svg>

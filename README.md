@@ -1,8 +1,31 @@
+<h1 align="center">🕷️ FARRAG_TRACKER</h1>
+
 <p align="center">
-  <img src="assets/web-banner.svg" width="900" alt="Animated red and blue digital spiderweb" />
+  <strong>MUHAMMED FARRAG · APPLIED AI ENGINEER</strong><br>
+  <sub>NLP · GENERATIVE AI · LLM INTEGRATIONS · INTELLIGENT AUTOMATION</sub>
 </p>
 
-<h1 align="center">🕷️ FARRAG_TRACKER</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-39FF14?style=for-the-badge&labelColor=0d1117" alt="Status: Active" />
+  <img src="https://img.shields.io/badge/LOCATION-EGYPT-00B4D8?style=for-the-badge&labelColor=0d1117" alt="Location: Egypt" />
+  <img src="https://img.shields.io/badge/FOCUS-NLP%20%7C%20GEN%20AI%20%7C%20LLMOps-FF1744?style=for-the-badge&labelColor=0d1117" alt="Focus: NLP, Generative AI, and LLMOps" />
+</p>
+
+<p align="center">
+  <a href="https://muhammed-farrag.github.io/Muhammed-Farrag/" title="Launch the interactive Farrag Tracker">
+    <img src="assets/web-slinger-console.png" width="100%" alt="Farrag Tracker interactive world portfolio atlas" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://muhammed-farrag.github.io/Muhammed-Farrag/"><img src="https://img.shields.io/badge/LAUNCH-WORLD_TRACKER-FF1744?style=for-the-badge&labelColor=0d1117" alt="Launch the interactive world tracker" /></a>
+  <a href="index.html"><img src="https://img.shields.io/badge/VIEW-SOURCE-00B4D8?style=for-the-badge&logo=html5&logoColor=white&labelColor=0d1117" alt="View tracker source" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Muhammed-Farrag&color=ff1744&style=for-the-badge&label=SIGHTINGS" alt="Profile sightings" />
+</p>
+
+<p align="center">
+  <sub>▲ 175 COUNTRIES · FASTLY-STYLE GEO CODES · CLICK A COUNTRY FOR VERIFIED LOCATION LINKS ▲</sub>
+</p>
 
 ```text
 INITIALIZING PROFILE
@@ -10,30 +33,6 @@ TARGET ACQUIRED: MUHAMMED FARRAG
 ROLE: APPLIED AI ENGINEER
 STATUS: ONLINE
 ```
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-39FF14?style=for-the-badge&labelColor=0d1117" alt="Status: Active" />
-  <img src="https://img.shields.io/badge/LOCATION-EGYPT-00B4D8?style=for-the-badge&labelColor=0d1117" alt="Location: Egypt" />
-  <img src="https://img.shields.io/badge/FOCUS-NLP%20%7C%20GEN%20AI%20%7C%20LLMOps-FF1744?style=for-the-badge&labelColor=0d1117" alt="Focus: NLP, Generative AI, and LLMOps" />
-  <img src="https://komarev.com/ghpvc/?username=Muhammed-Farrag&color=ff1744&style=for-the-badge&label=SIGHTINGS" alt="Profile sightings" />
-</p>
-
----
-
-## 🌐 INTERACTIVE TRACKER
-
-<p align="center">
-  <a href="https://muhammed-farrag.github.io/Muhammed-Farrag/">
-    <img src="assets/web-slinger-console.png" width="100%" alt="Farrag Tracker interactive Three.js portfolio map" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://muhammed-farrag.github.io/Muhammed-Farrag/"><img src="https://img.shields.io/badge/LAUNCH-THREE.JS_TRACKER-FF1744?style=for-the-badge&labelColor=0d1117" alt="Launch the interactive Three.js tracker" /></a>
-  <a href="index.html"><img src="https://img.shields.io/badge/VIEW-SOURCE-00B4D8?style=for-the-badge&logo=html5&logoColor=white&labelColor=0d1117" alt="View tracker source" /></a>
-</p>
-
-Explore a live, draggable intelligence globe where each signal represents a confirmed role, research program, award, internship, or education milestone. The experience is built with original artwork and Three.js; the preview above links to the interactive GitHub Pages version.
 
 ---
 
